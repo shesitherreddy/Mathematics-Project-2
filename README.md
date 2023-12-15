@@ -46,8 +46,7 @@ I conducted my local sensitivity analysis by perturbating my parameters by 1% an
 I now considered to check my global sensitivity analysis for bigger perturbation of 20% and visualized my paramerter effect on the model out but when is repeated for 1000 times.
 
 <p align="center">
-  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/Coupled%20ODE%20equations.png" width="350"><br>
-  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/fit_0.png" width="350"><br>
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/global%20sensitivity_1.png" width="350"><br>
 </p>
 
 
