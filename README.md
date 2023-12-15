@@ -10,11 +10,10 @@ This project aimed to replicate, and perhaps improve, the model which is mention
 The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model.
 
 <p align="center">
-  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/Coupled%20ODE%20equations.png![image](https://github.com/shesitherreddy/Mathematics-Project-2/assets/147462879/7746474f-36f2-45c8-be3c-221329c4ffc3)
-" width="350"><br>
-  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/fit_0.png![image](https://github.com/shesitherreddy/Mathematics-Project-2/assets/147462879/93ccd8d7-70ea-4682-97c0-94d5ff41977f)
-" width="500">
+  <img src="https://github.com/bcerminarache2410/CHE2410-Project-2/blob/main/ode%20table.png" width="350"><br>
+  <img src="https://github.com/bcerminarache2410/CHE2410-Project-2/blob/main/ode%20table.png" width="350"><br>
 </p>
+
 
 ## Optimization of the parameters
 
