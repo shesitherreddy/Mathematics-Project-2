@@ -7,11 +7,11 @@ Gregory T. Went, Ruy M. Ribeiro, Alan S. Perelson.https://www.sciencedirect.com/
 
 This project aimed to replicate, and perhaps improve, the model which is mentioned in the above paper. I used eclipse model since it has better fit when compared to delay and simple models this paper is focused on the dynamics of influenza virus strains and its behaviour with varying drug concenterations inside the body the drug which usually used to treat this virus is adamantane and it has an efficiency of 80 to 90% when used before 48 hours of the on set of symptoms in this paper they examined how vivo and vitro models are behaving with the V variable which is our main interest (infectious viral titer) in pfu/mL.
 
-The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model.
+The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model. Below are my model equations and my model fit which was done in python
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/Coupled%20ODE%20equations.png" width="350"><br>
-  <img src="https://github.com/bcerminarache2410/CHE2410-Project-2/blob/main/ode%20table.png" width="350"><br>
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/fit_0.png" width="350"><br>
 </p>
 
 
