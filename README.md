@@ -9,6 +9,13 @@ This project aimed to replicate, and perhaps improve, the model which is mention
 
 The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model.
 
+<p align="center">
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/Coupled%20ODE%20equations.png![image](https://github.com/shesitherreddy/Mathematics-Project-2/assets/147462879/7746474f-36f2-45c8-be3c-221329c4ffc3)
+" width="350"><br>
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/fit_0.png![image](https://github.com/shesitherreddy/Mathematics-Project-2/assets/147462879/93ccd8d7-70ea-4682-97c0-94d5ff41977f)
+" width="500">
+</p>
+
 ## Optimization of the parameters
 
 I used cruve_fit function to fit the parameters for experimental data given by the author and the resulting graph showed better fit than the model given by the author but I am not confident with the optimized parameter results since some of the parameters are outside the range of CI mentioned by the Author I chose to leave the optimized parameters to conduct any further study and continued with the parameters mentioned in the paper.
