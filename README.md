@@ -17,7 +17,12 @@ The Author used variations of the ordinary differential equation (ODE) models pr
 
 ## Optimization of the parameters
 
-I used cruve_fit function to fit the parameters for experimental data given by the author and the resulting graph showed better fit than the model given by the author but I am not confident with the optimized parameter results since some of the parameters are outside the range of CI mentioned by the Author I chose to leave the optimized parameters to conduct any further study and continued with the parameters mentioned in the paper.
+I used cruve_fit function to fit the parameters for experimental data given by the author and the resulting graph showed better fit than the model given by the author but I am not confident with the optimized parameter results since some of the parameters are outside the range of CI mentioned by the Author I chose to leave the optimized parameters to conduct any further study and continued with the parameters mentioned in the paper.Below are my values after optimization and graph which was plotted using optimized parameters.
+
+<p align="center">
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/optimized%20parameters.png"  width="350"><br>
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/optimized.png"  width="350"><br>
+</p>
 
 ## Bifurcation Analysis
 
