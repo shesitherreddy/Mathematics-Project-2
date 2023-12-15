@@ -26,7 +26,12 @@ I used cruve_fit function to fit the parameters for experimental data given by t
 
 ## Bifurcation Analysis
 
-I conducted bifurcation analysis by chnaging the parameter p which is the production rate of infectious virions by productively infected cells by varying this value for the given CI I observed multiple steady states and the conducted the bifurcation analysis for the same parameter by chnaging now another parameter epsilon which is drug efficacy and got to know that the whole system reacted differently for different epsilon values this is because epsilon is a direct function of D which is drug concenteration and this made more sense when I performed local parametric sensitivity which can be seen under sentivity analysis.
+I conducted bifurcation analysis by chnaging the parameter p which is the production rate of infectious virions by productively infected cells by varying this value for the given CI I observed multiple steady states and the conducted the bifurcation analysis for the same parameter by chnaging now another parameter epsilon which is drug efficacy and got to know that the whole system reacted differently for different epsilon values this is because epsilon is a direct function of D which is drug concenteration and this made more sense when I performed local parametric sensitivity which can be seen under sentivity analysis.Below you can see the analysis depicted for two different drug concenterations.
+
+<p align="center">
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/bifurication_1.png"  width="350"><br>
+  <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/bifurication_2.png"  width="350"><br>
+</p>
 
 ## Sensitivity Analysis
 
