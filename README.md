@@ -21,6 +21,8 @@ I conducted bifurcation analysis by chnaging the parameter p which is the produc
 
 I conducted my local sensitivity analysis by perturbating my parameters by 1% and observed that the epsilon is my sensitive parameter to confirm this I conducted another sensitivity analysis which is called local initial condition sensitivity analysis which indicated that epsilon effects our models the most followed by p.
 
+I now considered to check my global sensitivity analysis for bigger perturbation of 20% and visualized my paramerter effect on the model out but when is repeated for 1000 times.
+
 
 
 
