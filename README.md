@@ -5,9 +5,9 @@ APA Citation for the referenced paper:
 Catherine A.A. Beauchemin , James J. McSharry , George L. Drusano, Jack T. Nguyen,
 Gregory T. Went, Ruy M. Ribeiro, Alan S. Perelson.https://www.sciencedirect.com/science/article/pii/S0022519308002798#!
 
-This project aimed to replicate, and perhaps improve, the model which is mentioned in the above paper. I used eclipse model since it has better fit when compared to delay and simple models this paper is focused on the dynamics of influenza virus strains and its behaviour with varying drug concenterations inside the body the drug which usually used to treat this virus is adamantane and it has an efficiency of 80 to 90% when used before 48 hours of the on set of symptoms in this paper they examined how vivo and vitro models are behaving with the V variable which is our main interest (infectious viral titer) in pfu/mL.
+This project aimed to replicate, and maybe improve, the model described in the preceding paper. I picked the eclipse model since it fits better than the delay and simple models. This paper focuses on the dynamics of influenza virus strains and their behavior with varying drug concentrations inside the body. The drug that is typically used to treat this virus is adamantane, which has an efficiency of 80 to 90% when used within 48 hours of the onset of symptoms. In this paper, they examined how vivo and vitro models behave with the V variable, which is our main interest (infectious viral titer) in pfu/mL.
 
-The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model. Below are my model equations and my model fit which was done in python
+The Author used variations of the ordinary differential equation (ODE) models proposed by Baccam et al.(2006).below are the mentioned differential equations for eclipse model. Below are my model equations and my model fit which was done in python.
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/Coupled%20ODE%20equations.png" width="350"><br>
@@ -17,7 +17,8 @@ The Author used variations of the ordinary differential equation (ODE) models pr
 
 ## Optimization of the parameters
 
-I used cruve_fit function to fit the parameters for experimental data given by the author and the resulting graph showed better fit than the model given by the author but I am not confident with the optimized parameter results since some of the parameters are outside the range of CI mentioned by the Author I chose to leave the optimized parameters to conduct any further study and continued with the parameters mentioned in the paper.Below are my values after optimization and graph which was plotted using optimized parameters.
+I used the cruve_fit function to fit the parameters for the experimental data provided by the author, and the resulting graph showed a better fit than the author's model, but I am not confident in the optimized parameter results because some of the parameters are outside the range of 95% CI mentioned by the author. I chose to leave the optimized parameters to conduct further research and continued with the parameters mentioned in the paper.The values I obtained after optimization are shown below, as well as a graph created using the optimized parameters.
+
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/optimized%20parameters.png"  width="350"><br>
@@ -26,7 +27,7 @@ I used cruve_fit function to fit the parameters for experimental data given by t
 
 ## Bifurcation Analysis
 
-I conducted bifurcation analysis by chnaging the parameter p which is the production rate of infectious virions by productively infected cells by varying this value for the given CI I observed multiple steady states and the conducted the bifurcation analysis for the same parameter by chnaging now another parameter epsilon which is drug efficacy and got to know that the whole system reacted differently for different epsilon values this is because epsilon is a direct function of D which is drug concenteration and this made more sense when I performed local parametric sensitivity which can be seen under sentivity analysis.Below you can see the analysis depicted for two different drug concenterations.
+I performed a bifurcation study by changing the parameter p, which is the generation rate of infectious virions by productively infected cells, for the specified CI. I observed multiple steady states and then performed a bifurcation analysis for the same parameter by changing another parameter epsilon, which is drug efficacy, and discovered that the whole system reacted differently for different epsilon values. This is because epsilon is a direct function of D, which is drug concentration, and this made more sense when I performed local parametric sensitivity, as shown in sentivity analysis.The following graph depicts the analysis for two distinct medication concentrations.
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/bifurication_1.png"  width="350"><br>
@@ -35,7 +36,7 @@ I conducted bifurcation analysis by chnaging the parameter p which is the produc
 
 ## Sensitivity Analysis
 
-I conducted my local sensitivity analysis by perturbating my parameters by 1% and observed that the epsilon is my sensitive parameter to confirm this I conducted another sensitivity analysis which is called local initial condition sensitivity analysis which indicated that epsilon effects our models the most followed by p.
+I performed a local sensitivity analysis by perturbing my parameters by 1% and discovered that epsilon is my sensitive parameter. To confirm this, I performed another sensitivity analysis known as the local initial condition sensitivity analysis, which revealed that epsilon has the greatest impact on our models, followed by p.
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/local%20sensitivity_1.png" width="350"><br>
@@ -43,7 +44,8 @@ I conducted my local sensitivity analysis by perturbating my parameters by 1% an
 </p>
 
 
-I now considered to check my global sensitivity analysis for bigger perturbation of 20% and visualized my paramerter effect on the model out but when is repeated for 1000 times.
+I now considered checking my global sensitivity analysis for a larger perturbation of 20% and visualizing my parameter's effect on the model when repeated 1000 times.
+
 
 <p align="center">
   <img src="https://github.com/shesitherreddy/Mathematics-Project-2/blob/main/global%20sensitivity_1.png" width="350"><br>
